@@ -1,0 +1,57 @@
+:root {
+    --color-bg: #ffffff;
+    --color-surface: #f2f2f2;
+    --color-surface-glass: rgba(242, 242, 242, 0.7);
+    --color-white: #ffffff;
+    --color-text: #000000;
+    --color-text-muted: #686868;
+    --color-placeholder: #a0a0a0;
+
+    --color-primary: #43716b;
+    --color-primary-hover: #375e59;
+    --color-primary-active: #2c4c48;
+    --color-accent: #86aeaa;
+    --color-accent-hover: #739d99;
+    --color-slot: #dce7e6;
+    --color-slot-hover: #c9dad8;
+    --color-calendar-head: #004636;
+    --color-weekend: #ff0000;
+    --color-weekend-muted: #ff9292;
+    --color-nav: rgba(21, 21, 20, 0.8);
+    --color-overlay: rgba(21, 21, 20, 0.6);
+
+    --shadow-soft: 0 0 8.5px rgba(81, 114, 163, 0.2);
+    --shadow-glow: 0 0 17px rgba(255, 255, 255, 0.5);
+    --focus-ring: 0 0 0 2px #ffffff, 0 0 0 4px var(--color-primary);
+
+    --radius-xs: 5px;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-pill: 47px;
+
+    --font-base: 'Nunito Sans', system-ui, sans-serif;
+    --text-xs: 10px / 14px var(--font-base);
+    --text-sm: 12px / 16px var(--font-base);
+    --text-md: 14px / 19px var(--font-base);
+    --text-lg: 16px / 22px var(--font-base);
+    --text-xl: 20px / 27px var(--font-base);
+    --text-2xl: 24px / 33px var(--font-base);
+    --text-3xl: 32px / 44px var(--font-base);
+
+    --container: 1720px;
+    --aside: 460px;
+    --gutter: 100px;
+}
+
+@media (max-width: 1439px) {
+    :root {
+        --aside: 380px;
+        --gutter: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --gutter: 16px;
+    }
+}
