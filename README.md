@@ -2,7 +2,7 @@
 
 Вёрстка по макету Figma «Сервис бронирования ресурсов (вариант 1)» на Nuxt 4.
 
-**GitHub Pages:** https://pastesolutions.github.io/&lt;repo&gt;/
+**GitHub Pages:** https://pastesolutions.github.io/octagon-rbs/
 
 ## Требования
 
