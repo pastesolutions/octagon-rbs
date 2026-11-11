@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { Space } from '~/types';
 
-const props = defineProps<{ space: Space; initialSlots?: string[] }>();
+defineProps<{ space: Space }>();
 const emit = defineEmits<{ book: [space: Space, slots: string[]] }>();
 
 const view = ref<'photo' | 'info'>('photo');
-const slots = ref<string[]>([...(props.initialSlots ?? [])]);
+const slots = ref<string[]>([]);
 const titleId = useId();
 const infoId = useId();
 </script>

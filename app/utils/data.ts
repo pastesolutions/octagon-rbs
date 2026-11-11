@@ -61,6 +61,6 @@ export const events: string[] = [
 ];
 
 export const invitations: Invitation[] = [
-    { id: 1, title: 'Съёмки в первомайском', time: '10.00 - 12.00', organizer: 'Иванов И. В.', role: 'Фотограф', place: 'Коворкинг ИРНИТУ' },
-    { id: 2, title: 'Съёмки в первомайском', time: '10.00 - 12.00', organizer: 'Иванов И. В.', role: 'Фотограф', place: 'Переговорная ИРНИТУ' }
+    { id: 1, title: 'Съёмки в первомайском', time: '10.00 - 12.00', organizer: 'Иванов И.', role: 'Фотограф', place: 'Коворкинг ИРНИТУ' },
+    { id: 2, title: 'Съёмки в первомайском', time: '10.00 - 12.00', organizer: 'Иванов И.', role: 'Фотограф', place: 'Переговорная ИРНИТУ' }
 ];
